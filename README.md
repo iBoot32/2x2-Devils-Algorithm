@@ -19,3 +19,7 @@ And that's exactly what I did. Here's a simple overview of how this algorithm wo
 - Repeat until your cube is solved
 
 The process is quite simple in theory, but obviously the hardest part is actually generating every 2x2 position and solving them all. Luckily, u/ben1996123 on Reddit was kind enough to generate all the scrambles for me, so all I had to do was write a program to solve any possible position of a Rubik's Cube (see `CubeBot2.0`), run the program on Ben's scrambles, and write the scrambles and solutions to a `.txt` file! Simple, isn't it?
+
+***
+
+If you don't want to run the whole algorithm, I also wrote a program that can locate exactly where in the algoritm the solution to your cube appears. It's in this repo, and it's called `quicksearch.exe`.
